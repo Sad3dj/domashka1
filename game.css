@@ -82,13 +82,49 @@ background-position: top;
   height: 300px;
   border-radius: 16px;
 }
-.game_1 {
+.game1 {
   background-image: url(/img/Rectangle\ 6.jpg);
-
+  background-color: #000915;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-family: 'Montserrat';
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  width: 379px;
+  height: 300px;
+  border-radius: 16px;
 }
-.game_2 {
+.game2 {
   background-image: url(/img/Rectangle\ 7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-family: 'Montserrat';
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  width: 379px;
+  height: 300px;
+  border-radius: 16px;
 }
-.game_3 {
+.game3 {
   background-image: url(/img/Rectangle\ 8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  font-family: 'Montserrat';
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  width: 379px;
+  height: 300px;
+  border-radius: 16px;
 }
