@@ -2,36 +2,40 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
-background-image: url(/img/Rectangle\ 1.jpg);
-width: 1440px;
-height: 1024px;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: top;
+  background-image: url(/img/Rectangle1.jpg);
+  width: 1440px;
+  height: 1024px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
+
 .zagolovok {
   color: azure;
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   padding-top: 217px;
   padding-left: 120px;
   padding-right: 531px;
   padding-bottom: 32px;
 }
+
 .text {
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   padding-left: 120px;
   padding-right: 838px;
   padding-bottom: 44px;
 }
+
 .button {
   line-height: 22px;
   width: 234px;
@@ -42,10 +46,10 @@ background-position: top;
   border: 13px solid;
   box-sizing: border-box;
   border-radius: 20px;
-  background-color:#9C0332;
-  border-color:#9C0332;;
-  
+  background-color: #9C0332;
+  border-color: #9C0332;
 }
+
 .games {
   color: #FFFFFF;
   padding-top: 128px;
@@ -59,21 +63,23 @@ background-position: top;
   gap: 32px;
   margin-bottom: 128px;
 }
+
 .footer {
-  background-image: url(/img/Rectangle\ 5.jpg);
+  background-image: url(/img/Rectangle5.jpg);
   width: 1440px;
   height: 1024px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .game {
   background-color: #000915;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   justify-content: flex-start;
   align-items: flex-end;
   padding-bottom: 32px;
@@ -82,13 +88,76 @@ background-position: top;
   height: 300px;
   border-radius: 16px;
 }
-.game_1 {
-  background-image: url(/img/Rectangle\ 6.jpg);
 
+.game_1 {
+  background-image: url(/img/Rectangle6.jpg);
 }
+
 .game_2 {
-  background-image: url(/img/Rectangle\ 7.jpg);
+  background-image: url(/img/Rectangle7.jpg);
 }
+
 .game_3 {
-  background-image: url(/img/Rectangle\ 8.jpg);
+  background-image: url(/img/Rectangle8.jpg);
 }
+
+@media (max-width: 375px) {
+  .zagolovok {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-left: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 343px;
+    font-style: normal;
+  }
+  .header {
+    background-image: url(/img/Rectangle\ 1.jpg);
+    width: 375px;
+    height: 735px;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: top;
+  }
+  .text {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 343px;
+    height: 66px;
+    text-align: center;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+  }
+  .games {
+    width: 343px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 128px;
+    margin-bottom: 128px;
+  }
+  .footer {
+    background-image: url(/img/Rectangle\ 5.jpg);
+    width: 375px;
+    height: 1221px;
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+  }
+  .game {
+    width: 343px;
+    height: 300px;
+    padding-left: 16px;
+  }
+}/*# sourceMappingURL=game.css.map */
