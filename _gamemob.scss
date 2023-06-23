@@ -44,7 +44,7 @@ text-align: center;
   padding-top: 128px;
  margin-bottom: 128px;
 }
-.footer {
+.gamer {
   background-image: url(/img/Rectangle\ 5.jpg);
   width: 375px;
   height: 1221px;
@@ -55,6 +55,26 @@ text-align: center;
 .game {
   width: 343px;
   height: 300px;
+  padding-left: 16px;
+}
+.GameTitle {
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  padding-left: 66px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  padding-right: 66px;
+}
+.gametext {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  width: 343px;
+  height: 66px;
   padding-left: 16px;
 }
 

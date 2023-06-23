@@ -64,10 +64,10 @@
   margin-bottom: 128px;
 }
 
-.footer {
+.gamer {
   background-image: url(/img/Rectangle5.jpg);
   width: 1440px;
-  height: 1024px;
+  height: 556px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,6 +99,105 @@
 
 .game_3 {
   background-image: url(/img/Rectangle8.jpg);
+}
+
+.footer {
+  background-image: url(/img/Rectangle\ 6.jpg);
+  width: 1440px;
+  height: 1024px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 233px;
+  padding-top: 238px;
+}
+
+.GameTitle {
+  font-size: 48px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-left: 120px;
+  padding-right: 943px;
+}
+
+.Gamebutton {
+  line-height: 22px;
+  width: 234px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 120px;
+  border: 13px solid;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #9C0332;
+  border-color: #9C0332;
+  margin-top: 20px;
+}
+
+.joystick {
+  background-color: #000915;
+  margin-left: 135px;
+  margin-right: 115px;
+  width: 485px;
+  height: 333px;
+}
+
+.for_game {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.for_game_1 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 233px;
+}
+
+.for_game_block {
+  display: flex;
+}
+
+.gametext {
+  color: #FFF;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 32px;
+  margin-left: 115px;
+  padding-right: 135px;
+  margin-right: 739px;
+  float: right;
+}
+
+.gamecheck {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.joystick {
+  margin-left: 839px;
+}
+
+.for_game {
+  gap: 32px;
+  clear: left;
+}
+
+.for_game_block {
+  gap: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.GameTitle {
+  color: #FFF;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
 @media (max-width: 375px) {
@@ -147,7 +246,7 @@
     padding-top: 128px;
     margin-bottom: 128px;
   }
-  .footer {
+  .gamer {
     background-image: url(/img/Rectangle\ 5.jpg);
     width: 375px;
     height: 1221px;
@@ -158,6 +257,26 @@
   .game {
     width: 343px;
     height: 300px;
+    padding-left: 16px;
+  }
+  .GameTitle {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    padding-left: 66px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    padding-right: 66px;
+  }
+  .gametext {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    height: 66px;
     padding-left: 16px;
   }
 }/*# sourceMappingURL=game.css.map */
