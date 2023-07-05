@@ -117,8 +117,6 @@
   font-family: "Montserrat";
   font-weight: 700;
   color: #FFFFFF;
-  padding-left: 120px;
-  padding-right: 943px;
 }
 
 .Gamebutton {
@@ -127,19 +125,15 @@
   height: 48px;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 120px;
   border: 13px solid;
   box-sizing: border-box;
   border-radius: 20px;
   background-color: #9C0332;
   border-color: #9C0332;
-  margin-top: 20px;
 }
 
 .joystick {
   background-color: #000915;
-  margin-left: 135px;
-  margin-right: 115px;
   width: 485px;
   height: 333px;
 }
@@ -165,10 +159,6 @@
   font-family: "Montserrat";
   font-weight: 300;
   line-height: 32px;
-  margin-left: 115px;
-  padding-right: 135px;
-  margin-right: 739px;
-  float: right;
 }
 
 .gamecheck {
@@ -177,8 +167,7 @@
 }
 
 .joystick {
-  margin-left: 839px;
-  margin-top: 128px;
+  display: flex;
 }
 
 .GameTitle {
@@ -186,6 +175,14 @@
   font-size: 48px;
   font-family: Montserrat;
   font-weight: 700;
+  margin-top: 282px;
+  margin-right: 342px;
+}
+
+.GameImg {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 233px;
 }
 
 @media (max-width: 375px) {

@@ -99,73 +99,35 @@ background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 233px;
-  padding-top: 238px;
+display: flex;
 }
-.GameTitle {
- font-size: 48px;
- font-family: 'Montserrat';
- font-weight: 700;
- color: #FFFFFF;
- padding-left: 120px;
- padding-right: 943px;
-}
+
 .Gamebutton {
   line-height: 22px;
   width: 234px;
   height: 48px;
   font-size: 18px;
   font-weight: 400;
-  margin-left: 120px;
   border: 13px solid;
   box-sizing: border-box;
   border-radius: 20px;
   background-color:#9C0332;
   border-color:#9C0332;;
-  margin-top: 20px;
-}
-.joystick {
-  background-color: #000915;
-  margin-left: 135px;
-  margin-right: 115px;
-  width: 485px;
-  height: 333px;
-}
-.for_game {
-  display: flex;
-  flex-wrap: wrap;
-}
-.for_game_1 {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 233px;
-}
-.for_game_block {
-  display: flex;
-}
+
 .gametext {
   color: #FFF;
 font-size: 18px;
 font-family: 'Montserrat';
 font-weight: 300;
 line-height: 32px;
-margin-left: 115px;
-padding-right: 135px;
-margin-right: 739px;
-float: right;
 }
-.gamecheck {
-display: flex;
-flex-direction: column;
-}
-.joystick {
-  margin-left: 839px;
-  margin-top: 128px;
-}
+
 .GameTitle {
   color: #FFF;
 font-size: 48px;
 font-family: Montserrat;
 font-weight: 700;
+margin-top: 282px;
+margin-right: 342px;
 }
 @import 'gamemob'
