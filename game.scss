@@ -61,7 +61,6 @@ background-position: top;
 }
 .gamer {
   background-image:url(/img/Rectangle5.jpg);
-  width: 1440px;
   height: 556px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,6 +97,7 @@ background-position: top;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+
 }
 
 .Gamebutton {
@@ -130,10 +130,13 @@ margin-top: 282px;
 padding-bottom: 32px;
 }
 .gamecheck {
-  max-width: 50%;
 margin-left: 120px;
 }
 .GameImg {
   margin-top: 233px;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 @import 'gamemob';

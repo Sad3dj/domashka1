@@ -66,7 +66,6 @@
 
 .gamer {
   background-image: url(/img/Rectangle5.jpg);
-  width: 1440px;
   height: 556px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,12 +140,16 @@
 }
 
 .gamecheck {
-  max-width: 50%;
   margin-left: 120px;
 }
 
 .GameImg {
   margin-top: 233px;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 @media (max-width: 375px) {
