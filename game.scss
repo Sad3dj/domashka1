@@ -94,12 +94,10 @@ background-position: top;
 }
 .footer {
   background-image: url(/img/Rectangle\ 6.jpg);
-  width: 1440px;
-  height: 1024px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-display: flex;
+  display: flex;
 }
 
 .Gamebutton {
@@ -113,21 +111,29 @@ display: flex;
   border-radius: 20px;
   background-color:#9C0332;
   border-color:#9C0332;;
-
+}
 .gametext {
   color: #FFF;
 font-size: 18px;
 font-family: 'Montserrat';
 font-weight: 300;
 line-height: 32px;
+padding-bottom: 32px;
 }
 
 .GameTitle {
   color: #FFF;
 font-size: 48px;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-weight: 700;
 margin-top: 282px;
-margin-right: 342px;
+padding-bottom: 32px;
 }
-@import 'gamemob'
+.gamecheck {
+  max-width: 50%;
+margin-left: 120px;
+}
+.GameImg {
+  margin-top: 233px;
+}
+@import 'gamemob';

@@ -103,20 +103,10 @@
 
 .footer {
   background-image: url(/img/Rectangle\ 6.jpg);
-  width: 1440px;
-  height: 1024px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 233px;
-  padding-top: 238px;
-}
-
-.GameTitle {
-  font-size: 48px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  color: #FFFFFF;
+  display: flex;
 }
 
 .Gamebutton {
@@ -132,56 +122,30 @@
   border-color: #9C0332;
 }
 
-.joystick {
-  background-color: #000915;
-  width: 485px;
-  height: 333px;
-}
-
-.for_game {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.for_game_1 {
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 233px;
-}
-
-.for_game_block {
-  display: flex;
-}
-
 .gametext {
   color: #FFF;
   font-size: 18px;
   font-family: "Montserrat";
   font-weight: 300;
   line-height: 32px;
-}
-
-.gamecheck {
-  display: flex;
-  flex-direction: column;
-}
-
-.joystick {
-  display: flex;
+  padding-bottom: 32px;
 }
 
 .GameTitle {
   color: #FFF;
   font-size: 48px;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-weight: 700;
   margin-top: 282px;
-  margin-right: 342px;
+  padding-bottom: 32px;
+}
+
+.gamecheck {
+  max-width: 50%;
+  margin-left: 120px;
 }
 
 .GameImg {
-  display: flex;
-  justify-content: flex-end;
   margin-top: 233px;
 }
 
@@ -249,11 +213,11 @@
     line-height: 39px;
     text-align: center;
     padding-left: 66px;
-    text-align: center;
     display: flex;
     align-items: center;
     font-style: normal;
     padding-right: 66px;
+    margin-top: 178px;
   }
   .gametext {
     font-weight: 300;
@@ -263,5 +227,27 @@
     width: 343px;
     height: 66px;
     padding-left: 16px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gamecheck {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .joystick {
+    width: 90%;
+    height: 90%;
+  }
+  .GameImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 72px;
   }
 }/*# sourceMappingURL=game.css.map */
