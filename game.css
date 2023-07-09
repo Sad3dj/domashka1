@@ -100,7 +100,7 @@
   background-image: url(/img/Rectangle8.jpg);
 }
 
-.footer {
+.section {
   background-image: url(/img/Rectangle\ 6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,6 +141,7 @@
 
 .gamecheck {
   margin-left: 120px;
+  padding-right: 130px;
 }
 
 .GameImg {
@@ -150,6 +151,43 @@
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+}
+
+.footer {
+  background-image: url(/img/Rectangle\ 7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.SecondGameImg {
+  margin-left: 120px;
+  padding-right: 135px;
+  margin-top: 239px;
+}
+
+.SecondGame {
+  padding-left: 135px;
+  margin-top: 282px;
+}
+
+.Secondgametext {
+  color: #FFF;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 32px;
+  padding-bottom: 32px;
+}
+
+.SecondGameTitle {
+  color: #FFF;
+  font-size: 48px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding-bottom: 32px;
 }
 
 @media (max-width: 375px) {
@@ -231,7 +269,7 @@
     height: 66px;
     padding-left: 16px;
   }
-  .footer {
+  .section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -252,5 +290,44 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 72px;
+    margin-bottom: 90px;
+  }
+  .SecondGame {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 136px;
+    width: 343px;
+    height: 217.603px;
+    flex-shrink: 0;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Secondgametext {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .SecondGameImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 72px;
+    margin-left: 0px;
+  }
+  .gamepad {
+    width: 344px;
+    height: 231px;
+    flex-shrink: 0;
+  }
+  .SecondGameTitle {
+    font-size: 32px;
+    line-height: 39px;
   }
 }/*# sourceMappingURL=game.css.map */

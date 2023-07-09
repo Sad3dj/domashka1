@@ -91,7 +91,7 @@ background-position: top;
 .game_3 {
   background-image:url(/img/Rectangle8.jpg);
 }
-.footer {
+.section {
   background-image: url(/img/Rectangle\ 6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,6 +131,7 @@ padding-bottom: 32px;
 }
 .gamecheck {
 margin-left: 120px;
+padding-right: 130px;
 }
 .GameImg {
   margin-top: 233px;
@@ -138,5 +139,38 @@ margin-left: 120px;
 .center {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+}
+.footer {
+  background-image: url(/img/Rectangle\ 7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.SecondGameImg {
+margin-left: 120px;
+padding-right: 135px;
+margin-top: 239px;
+}
+.SecondGame {
+  padding-left: 135px;
+  margin-top: 282px;
+}
+.Secondgametext{
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  line-height: 32px;
+  padding-bottom: 32px;
+}
+.SecondGameTitle {
+  color: #FFF;
+  font-size: 48px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  padding-bottom: 32px;
+
 }
 @import 'gamemob';
